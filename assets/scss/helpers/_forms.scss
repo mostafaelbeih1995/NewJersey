@@ -15,7 +15,7 @@ textarea { resize: vertical; }
 
 .btn { @include border-radius(0px); border-width: 2px; border-style: solid; font-size: 10px; font-weight: bold; text-transform: uppercase; position: relative; //overflow: hidden;
   &:hover, &:active, &:active:hover, &:focus { @include box-shadow(none); }
-  &.btn-primary { background-color: #000; color: #fff; border-color: #000;
+  &.btn-primary { background-color: #fff; color: #000; border-color: #fff;
     &:hover, &:active, &:active:hover, &:focus { background-color: #000; }
     &.btn-framed { color: #000;
       &:hover, &:active, &:active:hover, &:focus { background-color: rgba(#000, .05); }
